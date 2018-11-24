@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Q -> P, Q |- P -->
+<!DOCTYPE ARGUMENTO SYSTEM "formulapro.dtd">
+<ARGUMENTO>
+    <PREMISSA>
+        <CONDICIONAL CONECTIVO="→">
+            <ANTECEDENTE>
+                <LPRED>
+                    <PREDICATIVO>Q</PREDICATIVO>
+                </LPRED>
+            </ANTECEDENTE>
+            <CONSEQUENTE>
+                <LPRED>
+                    <PREDICATIVO>P</PREDICATIVO>
+                </LPRED>
+            </CONSEQUENTE>
+        </CONDICIONAL>
+    </PREMISSA>
+    <PREMISSA>
+        <LPRED>
+            <PREDICATIVO>Q</PREDICATIVO>
+        </LPRED>
+    </PREMISSA>
+    <CONCLUSAO>
+        <LPRED>
+            <PREDICATIVO>P</PREDICATIVO>
+        </LPRED>
+    </CONCLUSAO>
+</ARGUMENTO>
